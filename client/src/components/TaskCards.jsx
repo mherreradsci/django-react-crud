@@ -3,8 +3,7 @@ export function TaskCard({ task }) {
         <div>
             <h1>{task.title}</h1>
             <p>{task.description}</p>
-            <hr/>
+            <hr />
         </div>
-
-    )
+    );
 }
